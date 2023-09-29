@@ -4,3 +4,5 @@ pontos turísticos, nosso projeto tem como tema o turismo na América Latina. No
 objetivo é mostrar ao nosso público-alvo a riqueza e diversidade dessa região,
 proporcionando experiências únicas ao conhecer lugares distintos e criar memórias
 inesquecíveis. Assim visamos fornecer informaçãoes e recomendações de lugares para viajens na América Latina.
+
+Thainá 
