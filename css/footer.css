@@ -1,0 +1,117 @@
+/* estilização do footer */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  footer img {
+  width: 30px;
+  }
+  /* container inteiro do footer*/
+  footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #220315;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  .logobranca {
+    
+    background-color: #220315;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logobranca img {
+    width: 200px;
+   display: flex;
+   margin-left: 5px;
+  
+  } 
+  
+  .logopcd {
+    width: 100px;
+    
+  }
+  
+  
+  
+  /*estilização do h2*/
+  .footer1{
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  
+    
+  }
+  /* estilização do ul */
+  .lista {
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    list-style: none;
+    background-color: #220315;
+    
+  }
+  
+  /* estilização das linhas do ul*/
+  li{
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+  } 
+  /*estilização da parte que dá link ao li*/
+   li a{
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+   }
+   li a:hover{
+    color: #ffffff;
+   }
+  /*estilização do botão que sobe a página*/
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #ffffff ;
+    text-decoration: none;
+    border-radius: px;
+  }
+  .btn::after {
+    content: "↑";
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+  }
+  .btn:hover::after {
+    margin-top:-8px;
+  }
+  /*estilização dos icones de rede social*/
+  .fab{
+  width: 20px;
+  height: 20px;
+  
+  }
+  
+  .footer2 {
+    background-color: #125a44;
+  }
+  
+    @media(max-width: 500px){
+  
+      footer{
+        flex-direction:column;
+      }
+    }

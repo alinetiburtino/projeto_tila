@@ -1,29 +1,37 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+const imgs = document.querySelectorAll(".slider img");
+const dots = document.querySelectorAll(".dot");
+const leftArrow = document.querySelector(".arrow-left");
+const rightArrow = document.querySelector(".arrow-right");
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+let currentIndex = 0;
+let time = 7000; //Tempo padrão para apresentação de slides automática
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}   
-  for (i = 0; i < dots.length; i++) {
+const defClass = (startPos, index) => {
+  for (let i = startPos; i < imgs.length; i++) {
+    imgs[i].style.display = "none";
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000);
-}
+  imgs[index].style.display = "block";
+  dots[index].className += " active";
+};
+
+defClass(1, 0);
+
+leftArrow.addEventListener("click", function(){
+  currentIndex <= 0 ? currentIndex = imgs.length-1 : currentIndex--;
+  defClass(0, currentIndex);
+});
+
+rightArrow.addEventListener("click", function(){
+  currentIndex >= imgs.length-1 ? currentIndex = 0 : currentIndex++;
+  defClass(0, currentIndex);
+});
+
+const startAutoSlide = () => {
+  setInterval(() => {
+    currentIndex >= imgs.length-1 ? currentIndex = 0 : currentIndex++;
+    defClass(0, currentIndex);
+  }, time);
+};
+
+startAutoSlide(); //Inicia o slideshow

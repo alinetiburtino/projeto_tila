@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background-color: #125a44;
+  color: #fbfbfb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.navigation img {
+  width: 12%;
+}
+
+nav ul {
+  list-style: none;
+
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #89dd1ca2;
+  cursor: pointer;
+}
+
+ul li {
+  text-align: center;
+  align-items: center;
+  border-bottom: 2px #2c863e solid;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: left;
+  padding: 50px 25px;
+  position: relative;
+  width: 100%;
+  font-size: larger;
+  margin-left: 80px;
+  margin: 0 auto;
+  max-width: 1140px;
+
+}
+
+h1 {
+  text-align: center;
+  margin-left: 400px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+#divbusca {
+  display: flex;
+  align-items: center;
+}
+
+.pesquisa {
+  width: 200px;
+  height: 25px;
+  border-radius: 7px;
+  box-shadow: 4px 4px 2px #000000;
+  padding: 3px;
+  margin-left: 10px;
+}
+
+.cabecario {
+  display: flex;
+  margin: 3%;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #3a974c;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #125A44;
+  color: #ffffff;
+}
+
+
+.bandeira-card {
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 40vh;
+}
+.bandeira-card:hover{
+  transform: scale(1.1);
+}
+
+.bandeira-card img {
+  max-width: 100%;
+  width: 300px;
+  height: 80%;
+  margin: 2px;
+  margin-left: 25px;
+  border-radius: 20px;
+  border-style: solid;
+  border: 1px solid #0000004b;
+  box-shadow: #0000004d;
+  cursor: pointer;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: #125A44;
+  color: #FFF;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+}
