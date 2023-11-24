@@ -1,0 +1,21 @@
+
+
+/*header*/
+header {
+    background-color: #125A44;
+    color: #ffffff;
+    text-shadow: 4px 4px #000000;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.tittle {
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+}
+
+/*fim do header*/

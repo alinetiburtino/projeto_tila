@@ -1,0 +1,48 @@
+/*Estilização da nav*/
+.navigation {
+    background-color: #125a44;
+    color: #fbfbfb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+
+}
+.navigation img {
+    width: 12%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li {
+    text-align: center;
+    border-bottom: 2px #2c863e solid;
+    box-sizing: border-box;
+
+    padding: 50px 25px;
+    position: relative;
+
+    font-size: larger;
+
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #fea304;
+    cursor: pointer;
+}

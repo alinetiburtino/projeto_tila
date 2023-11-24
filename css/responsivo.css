@@ -1,0 +1,65 @@
+
+/* outros tamanhos */
+@media screen and (min-width: 760px) {
+
+    .banner {
+        display: flex;
+        width: 8px;
+        max-width: 20px;
+        padding: 1px;
+    }
+} 
+
+/* Adicione regras de mídia para tornar o layout responsivo em telas menores (exemplo: dispositivos móveis) */
+@media (max-device-width: 768px) {
+
+    /* Faça as alterações de estilo desejadas para telas menores */
+    /* Por exemplo, você pode ajustar o tamanho da fonte, o espaçamento e a largura do logotipo */
+    body {
+        font-size: 16px;
+    }
+
+    .logo img {
+        max-width: 150px;
+        display: flex;
+    }
+
+    #footer{
+        display: flex;
+        width: auto;
+    }
+
+
+    .logog {
+        width: 200px;
+        display: flex;
+        margin-left: 850px;
+      }
+
+      .contato img {
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        margin: 1rem;
+        margin-left: 1530%;
+      }
+
+      .descubra{
+        min-width: 200px;
+      }
+
+      .cont{
+        display: flex;
+      }
+
+      .contato img{
+        margin-left: 450%;
+    }
+    .logog{
+        margin-left: 37%;
+    }
+
+    .slider {
+        max-height: 30px;
+    }
+}

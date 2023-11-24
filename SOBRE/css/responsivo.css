@@ -1,0 +1,19 @@
+@media screen and (max-width:783px) {
+   .navigation{
+  
+   }
+   .sobre{
+      margin-top: 30%;
+      text-align: justify;
+      display: flex;
+      
+   }
+   .texto-sobre-nos{
+      font-size: 120%;
+      text-align: center;
+   }
+   .span2{
+      font-size: 100%;
+      text-align: center;
+   }
+}

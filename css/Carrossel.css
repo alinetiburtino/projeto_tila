@@ -22,7 +22,8 @@
 /* Imagens no carrossel */
 .slider img {
   width: 100%;
-  height: 100%; /* Corrigido erro: estava faltando o valor "px" */
+  height: 100%;
+  /* Corrigido erro: estava faltando o valor "px" */
   object-fit: cover;
   animation: fade 1s;
 }
@@ -104,17 +105,20 @@
 }
 
 /* Destaque no ponto ativo ou ao passar o mouse */
-.active, .dot:hover {
+.activo,
+.dot:hover {
   background-color: #717171;
 }
 
 /* Animação de transição das imagens */
 @keyframes fade {
   from {
-      opacity: 0.1;
+    opacity: 0.1;
   }
+
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
+
 /* Fim dos estilos para o carrossel */

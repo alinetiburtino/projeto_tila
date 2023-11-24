@@ -1,0 +1,12 @@
+/*link do site indicado*/
+.click {
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    margin: 20px;
+}
+
+.click a {
+    padding-left: 10px;
+}

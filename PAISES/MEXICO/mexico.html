@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav-mexico.css">
+    <link rel="stylesheet" href="css/header-mexico.css">
+    <link rel="stylesheet" href="css/cards-mexico.css">
+    <link rel="stylesheet" href="css/pontos-turisticos-mexico.css">
+    <link rel="stylesheet" href="css/link-mexico.css">
+    <link rel="stylesheet" href="css/footer-mexico.css">
+    <link rel="stylesheet" href="css/responsivo-mexico.css">
+    <link rel="stylesheet" href="css/altocontraste-mexico.css">
+
+    <!--codico da API-->
+    <link rel="stylesheet" href="css/clima-informacoes-argentina.css" />
+    <script src="js/scriptcli-mexico.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--fecha API-->
+
+
+    <title>México</title>
+    <link rel="shortcut icon" href="img/titleimg.png" >
+</head>
+
+<body>
+
+    <!--vlibras-->
+
+    <div vw class="enabled">
+
+
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!--vlibras-->
+
+    <section class="contraste">
+        <button onclick="darkMode()" id="lampadaon">
+            <img src="img/lampada_ON.png" alt="">
+            <p id="hoverText" class="hidden">Alto Contraste</p>
+        </button>
+
+        <button id="lampadaoff">
+            <img src="img/lampada.png" alt="">
+            <p id="hoverText" class="hidden">Alto Contraste</p>
+        </button>
+    </section>
+
+    <nav class="navigation">
+
+
+        <img src="img/logobranca.png" alt="logo">
+
+        <ul class="menu">
+            <li><a href="/index.html">Home</a></li>
+                <li><a href="/SOBRE/">Sobre nós</a></li>
+                <li><a class="ativo" href="/PAISES/paises.html">Países</a></li>
+                <li><a href="#footer">Contato</a></li>
+          </ul>
+    </nav>
+
+    <div class="tittle">
+        <h2>História do México</h2>
+    </div>
+
+    <!--inicio dos cards-->
+    <section id="container">
+
+        <img class="img" src="img/mexico1.jpg">
+
+
+        <div>
+            <p class="p">
+                • O México é um país situado entre os Estados Unidos e a América Central, conhecido pelas praias no
+                Pacífico e no Golfo do México e pela paisagem diversificada que inclui montanhas, desertos e selvas.
+                Ruínas antigas, como Teotihuacán e a cidade maia de Chichén Itzá, estão espalhadas pelo país, assim como
+                cidades da era colonial espanhola. Na capital, Cidade do México, lojas elegantes, museus renomados e
+                restaurantes gourmet atendem às necessidades da vida moderna
+            </p>
+        </div>
+
+
+
+
+        <div>
+            <p class="p1">"A Revolução Liberal ocorreu em 1857, e o poder foi assumido por Benito Juárez. Em razão de
+                sua política progressista, ele não foi bem recebido pelos conservadores, o que teria levado, assim, a
+                uma guerra civil até 1861, quando foi vencida pelos liberais.
+                Após a vitória, Benito suspendeu o pagamento da dívida externa.
+
+                Em 1863, os franceses aproveitaram-se desse pretexto para invadir o México. Depois de quatro anos, a
+                monarquia instalada pelos franceses foi derrubada e o imperador foi fuzilado."
+
+
+            </p>
+        </div>
+
+
+
+        <img class="img1" src="img/mexico2.jpg">
+
+        <img class="img2" src="img/mexico3.jpg">
+
+
+        <div>
+            <p class="p2">Guerra do México, Revolução Mexicana e ditadura
+                No ano de 1836, ocorreu a independência da região do atual estado norte-americano do Texas, e sua
+                anexação pelos Estados Unidos, em 1845, o que resultou na Guerra do México. Já derrotado, o México
+                perdeu ainda o Novo México, a Alta Califórnia, Utah, Arizona, Nevada e o oeste do Colorado.
+                "Em 1876, o general Porfirio Díaz implantou uma ditadura e permaneceu durante décadas no poder. Como as
+                eleições que lhe deram a vitória foram consideradas fraudulentas, os camponeses rebelaram-se e deram
+                início à Revolução Mexicana."
+
+
+            </p>
+        </div>
+
+
+    </section>
+
+
+    <!--fim dos cards-->
+
+    <!--pontos turisticos-->
+
+    <h2>Pontos Turísticos</h2>
+
+    <main class="pontos" id="pontos-turisticos">
+
+        <div class="ponto-card">
+            <img src="img/ponto1.jpg" alt="Ponto 1">
+            <h3>Puerto Vallarta
+            </h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/buea/231020/231021/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=true&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto2.jpg" alt="Ponto 1">
+            <h3>hermosillo</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/hmoa/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto3.jpg" alt="Ponto 1">
+            <h3>querétaro</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/quea/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto4.jpg" alt="Ponto 1">
+            <h3>Cidade do México</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/mexa/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto5.jpg" alt="Ponto 1">
+            <h3>guadalajara</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/gdla/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto6.jpg" alt="Ponto 1">
+            <h3>Cancún</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/cuna/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+
+    </main>
+
+    <!--fim dos pontos turisticos-->
+
+
+    <section class="clima-informação">
+        <!--informações-->
+        <div class="informacao">
+            <h3>Informações de risco sobre o México:</h3>
+            <p>O México é um país grande, com algumas partes muito seguras para turistas e outras muito perigosas. Mas
+                em qualquer caso, você deve aplicar todas as medidas de precaução possíveis, para minimizar as chances
+                de algo dar errado. <br><br>
+                Os furtos de carteiras e bolsas são um problema muito comum no México, especialmente em locais públicos
+                e movimentados, como estações de ônibus e trem e aeroportos.
+                Quanto aos desastres naturais, o maior risco para os turistas se esconde nas praias do Oceano Pacífico,
+                pois há relatos de afogamento. <br><br>
+                As grandes cidades estão repletas de golpistas agindo com a intenção de conseguir algum dinheiro, e,
+                como esse é um dos principais destinos turísticos, as chances de isso acontecer são ainda maiores.
+                Muitas mulheres viajaram com segurança para o México, sem nenhum problema. No entanto, muitas mulheres
+                terão problemas com cantadas indesejadas nas ruas, pois é possível se deparar com assobios e comentários
+                ofensivos. Evite partes das cidades cheias de bares e clubes, e nunca os visite desacompanhada, pois há
+                uma chance maior de encontrar pessoas intoxicadas.
+
+            </p>
+        </div>
+
+
+        <!--api do clima-->
+
+        <div class="clima">
+            <div class="form">
+                <h3>Confira o Clima de uma cidade:</h3>
+                <div class="form-input-container">
+                    <input type="text" placeholder="Digite o nome da cidade*" id="city-input">
+                    <button id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="weather-data" class="hide">
+                <h2>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="city"></span>
+                    <img crossorigin="anonymous" src="" id="country">
+                </h2>
+                <p id="temperature"><span></span>&deg;C</p>
+                <div id="description-container">
+                    <p id="description"></p>
+                    <img crossorigin="anonymous" src="" id="weather-icon">
+                </div>
+                <div id="details-container">
+                    <p id="humidity">
+                        <i class="fa-solid fa-droplet"></i>
+                        <span></span>
+                    </p>
+                    <p id="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <span></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--termina api-->
+    </section>
+    <!--termina as informações-->
+
+    <!--Botão-->
+    <Section class="click">
+        <P>Conheça outros pontos turísticos do México acessando </P>
+        <a
+            href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/ar/231023/231024/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&preferdirects=true&outboundaltsenabled=false&inboundaltsenabled=false">
+            skyscanner.com.br/</a>
+    </Section>
+
+    <!--Footer-->
+
+    <footer id="footer">
+        <div>
+            <img class="logog" src="img/logobranca.png" alt="">
+        </div>
+        <div class="entreemcontato">
+            <h2>Entre em contato conosco!</h2>
+        </div>
+
+        <div class="contato">
+
+
+            <div class="instagram">
+                <a href="https://www.instagram.com/latilatourism/"><img src="img/instagram.png" alt=""></a>
+            </div>
+
+
+
+            <div class="whatsapp">
+                <a href="https://wa.me/5511954782136"><img src="img/whatsapp.png" alt=""></a>
+            </div>
+
+            <div class="email">
+                <a href="//mailto:latilatourism@gmail.com.@gmail.com"><img src="img/e-mail.png" alt=""></a>
+            </div>
+
+
+        </div>
+
+
+    </footer>
+
+
+    <div class="latila">
+        <p>&copy; 2023 Latila Tourism</p>
+    </div>
+    <!-- fim footer -->
+
+
+</body>
+
+</html>

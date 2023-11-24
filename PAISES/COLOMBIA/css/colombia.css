@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*botão*/
+.click {
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+}
+
+.click a {
+    padding-left: 10px;
+}

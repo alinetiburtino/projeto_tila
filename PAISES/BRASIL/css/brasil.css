@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*botão*/
+.click {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 400px;
+}
+
+.click p {
+    font-size: 25px;
+    margin: 8px;
+}
+
+.click a {
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Estilize a cor do link ativo */
+a.active {
+    background-color: #fea304;
+    /* Cor de destaque para a página ativa */
+}

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav-chile.css">
+    <link rel="stylesheet" href="css/header-chile.css">
+    <link rel="stylesheet" href="css/cards-chile.css">
+    <link rel="stylesheet" href="css/pontos-turisticos-chile.css">
+    <link rel="stylesheet" href="css/link-chile.css">
+    <link rel="stylesheet" href="css/footer-chile.css">
+    <link rel="stylesheet" href="css/responsivo-chile.css">
+    <link rel="stylesheet" href="css/altocontraste-chile.css">
+
+    <!--codico da API-->
+    <link rel="stylesheet" href="css/clima-informacoes-chile.css" />
+    <script src="js/scriptcli-chile.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--fecha API-->
+
+
+    <title>Chile</title>
+    <link rel="shortcut icon" href="img/titleimg.png" >
+</head>
+
+<body>
+
+    <!--vlibras-->
+
+    <div vw class="enabled">
+        
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!--vlibras-->
+
+    <section class="contraste">
+        <button onclick="darkMode()" id="lampadaon">
+        <img src="img/lampada_ON.png" alt="">
+        <p id="hoverText" class="hidden">Alto Contraste</p>
+    </button>
+
+    <button id="lampadaoff">
+        <img src="img/lampada.png" alt="">
+        <p id="hoverText" class="hidden">Alto Contraste</p>
+    </button>
+</section>
+
+    <nav class="navigation">
+
+
+        <img src="img/logobranca.png" alt="logo">
+
+        <ul class="menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/SOBRE/index.html">Sobre nós</a></li>
+            <li><a class="ativo" href="/PAISES/paises.html">Países</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+    </nav>
+
+    <div class="tittle">
+        <h2>História do Chile</h2>
+    </div>
+
+    <!--inicio dos cards-->
+    <section id="container">
+
+        <img class="img" src="img/chile1.jpg">
+
+
+        <div>
+            <p class="p">
+                Parte 1: Período Pré-Colombiano e Domínio Espanhol (Até o Século XIX) A história do Chile começa com a
+                presença de povos indígenas, como os Mapuches, na região antes da chegada dos espanhóis no século XVI.
+                Os espanhóis, liderados por Diego de Almagro e Pedro de Valdivia, conquistaram o território chileno no
+                século XVI, incorporando-o ao Vice-Reino do Peru. Durante o período colonial, o Chile foi uma parte
+                importante do Império Espanhol na América do Sul.
+            </p>
+        </div>
+
+
+
+
+        <div>
+            <p class="p1">Parte 2: Independência e Desenvolvimento Nacional (Século XIX e Início do Século XX) No início
+                do século XIX, o Chile emergiu como um dos líderes na luta pela independência na América do Sul. Em
+                1818, o Chile alcançou sua independência da Espanha após uma longa e brutal guerra. No início do século
+                XX, o Pais começou a experimentar um período de estabilidade política e crescimento econômico,
+                impulsionado principalmente pela indústria do cobre. No entanto, esse período também foi marcado por
+                desigualdades sociais e políticas que levaram a tensões sociais e conflitos políticos.
+
+            </p>
+        </div>
+
+
+
+        <img class="img1" src="img/chile2.jpg">
+
+        <img class="img2" src="img/chile3.jpg">
+
+
+        <div>
+            <p class="p2">Parte 3: Século XX até os Dias Atuais Após o retorno à democracia, o Chile experimentou um
+                período de crescimento econômico e estabilidade política. O país se tornou conhecido por suas políticas
+                econômicas sólidas e seu desenvolvimento social. No século XXI, o Chile enfrentou demandas por reformas
+                sociais, incluindo mudanças no sistema educacional e na previdência. Além disso, o país tem lidado com
+                questões relacionadas à preservação ambiental e a questão dos direitos dos povos indígenas. O Chile
+                continua sendo uma das economias mais desenvolvidas da América Latina.</p>
+        </div>
+
+
+    </section>
+
+
+    <!--fim dos cards-->
+
+    <!--pontos turisticos-->
+
+    <h2>Pontos Turísticos</h2>
+
+    <main class="pontos" id="pontos-turisticos">
+
+        <div class="ponto-card">
+            <img src="img/ponto1.png" alt="Ponto 1">
+            <h3>Santiago</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/scla/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=true&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto2.png" alt="Ponto 1">
+            <h3>Calama</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/cjca/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto3.png" alt="Ponto 1">
+            <h3>Punta Arenas</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/puqa/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto4.png" alt="Ponto 1">
+            <h3>Arica</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/aria/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto5.png" alt="Ponto 1">
+            <h3>Puerto Montt</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/pmca/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto6.png" alt="Ponto 1">
+            <h3>Concepción</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/ccpa/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+
+    </main>
+
+    <!--fim dos pontos turisticos-->
+
+
+    <section class="clima-informação">
+        <!--informações-->
+        <div class="informacao">
+            <h3>Informações de risco sobre o Chile:</h3>
+            <p>A taxa de criminalidade no Chile é bastante baixa, tornando este país o mais seguro em toda a região.
+                O crime mais comum que pode acontecer a você é assaltos, roubos de sacolas e furtos.
+                E, embora tenha havido relatos de assaltos diurnos, crimes violentos são muito raros no Chile.
+                Evite lugares e bairros notórios por serem pontos quentes do crime, como Vitacura, Providencia e Las
+                Condes e mantenha seus pertences próximos a você. <br><br>
+                Ao pegar o ônibus ou um trem, nunca deixe seus pertences valiosos em compartimentos de armazenamento,
+                pois eles podem ser roubados.
+                Sempre reserve táxis com antecedência, em vez de chamá-los na rua, pois os taxistas podem fazer com que
+                você pague muito mais do que deveria, ou até mesmo assaltá-lo.
+                Também houve relatos de roubo de veículos, portanto, mantenha sempre as janelas abertas, as portas
+                trancadas e os pertences ao seu lado. <br><br>
+                Os perigos naturais são provavelmente mais prováveis do que aqueles que têm a ver com o crime, já que o
+                Chile é rico em belezas naturais e, por isso, exposto a muitos possíveis desastres.
+                Terremotos estão se tornando cada vez mais comuns e de maior magnitude nos últimos anos.
+                Existem vários vulcões ativos que podem entrar em erupção a qualquer momento e, além disso, o país está
+                cheio de gêiseres, algumas das maravilhas naturais mais incríveis, mas também extremamente perigosas.
+                Cair em uma das crateras do gêiser pode ter resultados devastadores e fatais.
+            </p>
+        </div>
+
+
+        <!--api do clima-->
+
+        <div class="clima">
+            <div class="form">
+                <h3>Confira o Clima de uma cidade:</h3>
+                <div class="form-input-container">
+                    <input type="text" placeholder="Digite o nome da cidade*" id="city-input">
+                    <button id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="weather-data" class="hide">
+                <h2>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="city"></span>
+                    <img crossorigin="anonymous" src="" id="country">
+                </h2>
+                <p id="temperature"><span></span>&deg;C</p>
+                <div id="description-container">
+                    <p id="description"></p>
+                    <img crossorigin="anonymous" src="" id="weather-icon">
+                </div>
+                <div id="details-container">
+                    <p id="humidity">
+                        <i class="fa-solid fa-droplet"></i>
+                        <span></span>
+                    </p>
+                    <p id="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <span></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--termina api-->
+    </section>
+    <!--termina as informações-->
+
+    <!--Botão-->
+    <Section class="click">
+        <P>Conheça outros pontos turísticos do Chile acessando </P>
+        <a
+            href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/ar/231023/231024/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&preferdirects=true&outboundaltsenabled=false&inboundaltsenabled=false">
+            skyscanner.com.br/</a>
+    </Section>
+
+    <!--Footer-->
+
+    <footer id="footer">
+        <div>
+            <img class="logog" src="img/logobranca.png" alt="">
+        </div>
+        <div class="entreemcontato">
+            <h2>Entre em contato conosco!</h2>
+        </div>
+
+        <div class="contato">
+
+
+            <div class="instagram">
+                <a href="https://www.instagram.com/latilatourism/"><img src="img/instagram.png" alt=""></a>
+            </div>
+
+
+
+            <div class="whatsapp">
+                <a href="https://wa.me/5511954782136"><img src="img/whatsapp.png" alt=""></a>
+            </div>
+
+            <div class="email">
+                <a href="//mailto:latilatourism@gmail.com.@gmail.com"><img src="img/e-mail.png" alt=""></a>
+            </div>
+
+
+        </div>
+
+
+    </footer>
+
+
+    <div class="latila">
+        <p>&copy; 2023 Latila Tourism</p>
+    </div>
+    <!-- fim footer -->
+
+
+</body>
+
+</html>

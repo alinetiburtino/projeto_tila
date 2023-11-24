@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #220315;
+  height: 100%;
+  padding: 50px;
+  color: #ffffff;
+
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+}
+
+
+.contato img {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  margin: 1rem;
+  margin-left: 1050%;
+  color: #ffffff;
+}
+
+.latila {
+  align-items: center;
+  text-align: center;
+  background-color: #125a44;
+  height: 50px;
+}
+
+.log1{
+  margin-top: 15px;
+}
+.entreemcontato {
+  font-size: x-large;
+  text-align: center;
+}
+
+
+.logog {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin-left: 572px;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+footer {
+  margin-top: auto;
+}

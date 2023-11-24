@@ -1,0 +1,84 @@
+.navigation {
+    background-color: #125a44;
+    color: #fbfbfb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+.navigation img {
+    width: 12%;
+}
+
+nav ul {
+    list-style: none;
+
+}
+.ativo{
+    color: #fea304 !important;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #fea304;
+    cursor: pointer;
+}
+
+ul li {
+    text-align: center;
+    align-items: center;
+    border-bottom: 2px #2c863e solid;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    padding: 50px 25px;
+    position: relative;
+    width: 100%;
+    font-size: larger;
+    margin-left: 80px;
+    margin: 0 auto;
+    max-width: 1140px;
+
+}
+
+.cabecario h1{
+    text-align: center;
+    margin-left: 30%;
+}
+
+body {
+
+    background-color: #ffffff;
+}
+
+#divbusca {
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa {
+    width: 200px;
+    height: 25px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 2px #000000;
+    padding: 3px;
+   
+}
+
+.cabecario {
+    display: flex;
+    margin: 3%;
+}
+

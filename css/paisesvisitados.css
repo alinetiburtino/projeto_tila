@@ -6,8 +6,14 @@ main {
     width: 100%;
     text-align: center;
     text-align-last: center;
-   
-    
+}
+
+h2 {
+    padding: 5vh;
+}
+
+p {
+    padding: -10px;
 }
 
 .gallery-main {
@@ -15,74 +21,61 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-  
-    
 }
 
 .gallery-element {
     display: inline-flex;
     margin: 10px auto;
-    -webkit-box-shadow: 8px 9px 12px -1px rgba(15,25,29,0.6);
-    -moz-box-shadow: 8px 9px 12px -1px rgba(15,25,29,0.6);
-    box-shadow: 8px 9px 12px -1px rgba(15,25,29,0.6);
-    padding: 10px; /* borda arredondada */
+    -webkit-box-shadow: 8px 9px 12px -1px rgba(15, 25, 29, 0.6);
+    -moz-box-shadow: 8px 9px 12px -1px rgba(15, 25, 29, 0.6);
+    box-shadow: 8px 9px 12px -1px rgba(15, 25, 29, 0.6);
+    padding: 10px;
+    /* borda arredondada */
     /*border-radius: 10px;  /* img arredondada */
     margin-left: 15px;
     margin-right: 15px;
 }
 
-.gallery-element a{
+.gallery-element a {
     text-decoration: none;
     color: #000000;
-    
-    
 }
 
 .gallery-element img {
     width: 350px;
     height: 250px;
     /*border-radius: 10px;*/
-  
-    
 }
 
 .gallery-element figcaption {
     padding: 5px;
-    
 }
 
-body > footer {
+body>footer {
     border-top: 1px solid #220315;
-  
     margin: 0 auto;
     padding: 10px;
     text-align: center;
 }
 
-body > footer a {
+body>footer a {
     text-decoration: none;
 }
 
 /* Transisoes e animacoes */
-
-body > footer:hover {
-    color: #000000;
-    opacity: 1;
-} 
-
-.gallery-element:hover { /*animação que faz o card subir*/
+.gallery-element:hover {
+    /*animação que faz o card subir*/
     transform: scale(1.1);
-    -webkit-box-shadow: 8px 9px 12px -1px rgba(15,25,29,0.6);
-    -moz-box-shadow: 8px 9px 12px -1px rgba(15,25,29,0.6);
-    box-shadow: 8px 9px 12px -1px rgba(15,25,29,0.6);
+    -webkit-box-shadow: 8px 9px 12px -1px rgba(15, 25, 29, 0.6);
+    -moz-box-shadow: 8px 9px 12px -1px rgba(15, 25, 29, 0.6);
+    box-shadow: 8px 9px 12px -1px rgba(15, 25, 29, 0.6);
     transition: 1s;
 }
 
-
 @media screen and (max-width: 360px) {
-    .gallery-element:hover img{ 
+    .gallery-element:hover img {
         transform: scale (1);
-    
+
     }
 }
 

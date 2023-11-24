@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav-costarica.css">
+    <link rel="stylesheet" href="css/header-costarica.css">
+    <link rel="stylesheet" href="css/cards-costarica.css">
+    <link rel="stylesheet" href="css/pontos-turisticos-costarica.css">
+    <link rel="stylesheet" href="css/link-costarica.css">
+    <link rel="stylesheet" href="css/footer-costarica.css">
+    <link rel="stylesheet" href="css/responsivo-costarica.css">
+    <link rel="stylesheet" href="css/altocontraste-costarica.css">
+
+    <!--codico da API-->
+    <link rel="stylesheet" href="css/clima-informacoes-costarica.css" />
+    <script src="js/scriptcli-costarica.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--fecha API-->
+
+
+    <title>Costa Rica</title>
+    <link rel="shortcut icon" href="img/titleimg.png" >
+</head>
+
+<body>
+
+    <!--vlibras-->
+
+    <div vw class="enabled">
+      
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!--vlibras-->
+    <section class="contraste">
+        <button onclick="darkMode()" id="lampadaon">
+        <img src="img/lampada_ON.png" alt="">
+        <p id="hoverText" class="hidden">Alto Contraste</p>
+    </button>
+
+    <button id="lampadaoff">
+        <img src="img/lampada.png" alt="">
+        <p id="hoverText" class="hidden">Alto Contraste</p>
+    </button>
+</section>
+    <nav class="navigation">
+
+
+        <img src="img/logobranca.png" alt="logo">
+
+        <ul class="menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/SOBRE/index.html">Sobre nós</a></li>
+            <li><a class="ativo" href="/PAISES/paises.html">Países</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+    </nav>
+
+    <div class="tittle">
+        <h2>História da Costa Rica</h2>
+    </div>
+
+    <!--inicio dos cards-->
+    <section id="container">
+
+        <img class="img" src="img/costarica1.webp">
+
+
+        <div>
+            <p class="p">
+                Parte 1: Período Pré-Colombiano e Colonização (antes de 1821):
+                Costa Rica, foi habitada por diversas culturas indígenas, como os huetares e chorotegas. Cristóvão
+                Colombo foi o primeiro europeu a chegar à região em 1502, durante sua quarta viagem ao Novo Mundo. A
+                colonização espanhola só começou no século XVI. Costa Rica era parte da Capitania Geral da Guatemala.
+                Durante o período colonial, a região não era tão rica quanto outras colônias da América Latina devido à
+                falta de minas de ouro e prata, o que levou ao desenvolvimento de uma sociedade agrária baseada na
+                produção de açúcar e tabaco.
+            </p>
+        </div>
+
+
+
+
+        <div>
+            <p class="p1">Parte 2: Independência e Instabilidade Política (1821-1949):
+                Costa Rica conquistou sua independência da Espanha em 1821, quando a Capitania Geral da Guatemala se
+                dissolveu após as guerras de independência na América Latina. O Pais tornou-se parte do Primeiro Império
+                Mexicano e, posteriormente, da República das Províncias Unidas da América Central. A região enfrentou
+                instabilidade política, com mudanças frequentes de governos e lutas internas. No final do século XIX, a
+                economia começou a se diversificar com a exportação de café, o que trouxe certa estabilidade econômica
+                ao país.
+            </p>
+        </div>
+
+
+
+        <img class="img1" src="img/costarica2.jpg">
+
+        <img class="img2" src="img/costarica3.webp">
+
+
+        <div>
+            <p class="p2">Parte 3: Estabilidade Democrática e Desenvolvimento (1949 até o presente) Em 1949, Costa Rica
+                aboliu seu exército após uma breve guerra civil, estabelecendo-se como uma república democrática. Desde
+                então, o país tem sido conhecido por sua estabilidade política e progresso social. O território investiu
+                em educação e saúde, tornando-se uma das nações mais desenvolvidas da América Central. O turismo também
+                se tornou uma importante fonte de receita. Nos últimos anos, o país tem se destacado globalmente por seu
+                compromisso com a preservação ambiental e sustentabilidade.</p>
+        </div>
+
+
+    </section>
+
+
+    <!--fim dos cards-->
+
+    <!--pontos turisticos-->
+
+    <h2>Pontos Turísticos</h2>
+
+    <main class="pontos" id="pontos-turisticos">
+
+        <div class="ponto-card">
+            <img src="img/ponto1.jpg" alt="Ponto 1">
+            <h3>Parque Nacional Tortuguero</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/ttq/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto2.jpg" alt="Ponto 1">
+            <h3>Vulcão Arenal</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/cr/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto3.jpg" alt="Ponto 1">
+            <h3>Fortuna Waterfall</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/fon/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto4.jpg" alt="Ponto 1">
+            <h3>Guanacaste</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/lir/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto5.jpg" alt="Ponto 1">
+            <h3>Playa Tamarindo</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/tno/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto6.png" alt="Ponto 1">
+            <h3>Teatro Nacional da Costa Rica</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/cr/231121/231122/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+
+    </main>
+
+    <!--fim dos pontos turisticos-->
+
+
+    <section class="clima-informação">
+        <!--informações-->
+        <div class="informacao">
+            <h3>Informações de risco sobre a Costa Rica:</h3>
+            <p>A Costa Rica é praticamente segura, com 1,9 milhão de visitantes anualmente, tornando-a um destino
+                turístico popular.
+                No entanto, existem perigos que vêm com esses destinos – principalmente na forma de batedores de
+                carteira e pequenos furtos, como roubo de bolsa, assaltos à mão armada e roubo de carros, portanto, os
+                turistas devem ter cuidado.
+                Em cidades maiores, até mesmo assaltos e roubos com armas de fogo ou faca acontecem, então tome cuidado
+                ao andar sozinho pelas ruas da Costa Rica. <br><br>
+                Elas rapidamente ficam desertos à noite, depois que os ônibus públicos param de circular, por isso pode
+                ser extremamente perigoso andar por San José à noite.
+                É aconselhável que os turistas tomem um táxi nessas situações, em vez de caminhar.
+                Os visitantes são aconselhados a usar o bom senso e não deixar objetos de valor à vista de todos no
+                carro ou na praia ao entrar na água.
+                Outra questão a ser lembrada na Costa Rica é o trânsito: cuidado ao atravessar a rua, pois os pedestres,
+                em geral, não têm prioridade. <br><br>
+                As estradas nas grandes cidades podem ser seguras, mas nas áreas rurais, elas tendem a ter buracos,
+                então tome cuidado ao dirigir.
+                Não é recomendado dirigir à noite.
+                O que você deve estar atento são as fortes correntes e as ondas em algumas áreas da costa da Costa Rica.
+                Embora a Costa Rica tenha algumas das melhores praias do mundo, você deve ter em mente que não há placas
+                marcando praias inseguras devido às marés e ondas e nem seus salva-vidas, então siga os conselhos locais
+                sobre onde é seguro nadar.
+
+            </p>
+        </div>
+
+
+        <!--api do clima-->
+
+        <div class="clima">
+            <div class="form">
+                <h3>Confira o Clima de uma cidade:</h3>
+                <div class="form-input-container">
+                    <input type="text" placeholder="Digite o nome da cidade*" id="city-input">
+                    <button id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="weather-data" class="hide">
+                <h2>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="city"></span>
+                    <img crossorigin="anonymous" src="" id="country">
+                </h2>
+                <p id="temperature"><span></span>&deg;C</p>
+                <div id="description-container">
+                    <p id="description"></p>
+                    <img crossorigin="anonymous" src="" id="weather-icon">
+                </div>
+                <div id="details-container">
+                    <p id="humidity">
+                        <i class="fa-solid fa-droplet"></i>
+                        <span></span>
+                    </p>
+                    <p id="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <span></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--termina api-->
+    </section>
+    <!--termina as informações-->
+
+    <!--Botão-->
+    <Section class="click">
+        <P>Conheça outros pontos turísticos da Costa Rica acessando </P>
+        <a
+            href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/ar/231023/231024/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&preferdirects=true&outboundaltsenabled=false&inboundaltsenabled=false">
+            skyscanner.com.br/</a>
+    </Section>
+
+    <!--Footer-->
+
+    <footer id="footer">
+        <div>
+            <img class="logog" src="img/logobranca.png" alt="">
+        </div>
+        <div class="entreemcontato">
+            <h2>Entre em contato conosco!</h2>
+        </div>
+
+        <div class="contato">
+
+
+            <div class="instagram">
+                <a href="https://www.instagram.com/latilatourism/"><img src="img/instagram.png" alt=""></a>
+            </div>
+
+
+
+            <div class="whatsapp">
+                <a href="https://wa.me/5511954782136"><img src="img/whatsapp.png" alt=""></a>
+            </div>
+
+            <div class="email">
+                <a href="//mailto:latilatourism@gmail.com.@gmail.com"><img src="img/e-mail.png" alt=""></a>
+            </div>
+
+
+        </div>
+
+
+    </footer>
+
+
+    <div class="latila">
+        <p>&copy; 2023 Latila Tourism</p>
+    </div>
+    <!-- fim footer -->
+
+
+</body>
+
+</html>

@@ -21,9 +21,14 @@ nav {
     justify-content: center;
 }
 
+.ativo{
+    color: #fea304 !important;
+}
 /* Estilos para o logotipo no cabeçalho */
 .logo img {
-    max-width: 200px; /* Limitando a largura máxima do logotipo */
+    max-width: 200px;
+    /* Limitando a largura máxima do logotipo */
+    margin-left: 30px;
 }
 
 /* Estilos para a lista de itens do menu de navegação */
@@ -35,62 +40,71 @@ nav {
 
 /* Estilos para cada item da lista do menu de navegação */
 .menu li {
-    margin: 0 10px; /* Espaçamento entre os itens do menu */
+    margin: 0 10px;
+    /* Espaçamento entre os itens do menu */
 }
 
 /* Estilos para os links no menu de navegação */
 .menu li a {
-    text-decoration: none; /* Removendo a decoração de texto sublinhado */
-    color: #fbfbfb; /* Cor do texto do menu */
-    font-weight: bold; /* Texto em negrito */
-    font-size: 18px; /* Tamanho da fonte */
-    border-bottom: 2px solid #fea304; /* Adicionando uma linha inferior com cor amarela */
+    text-decoration: none;
+    /* Removendo a decoração de texto sublinhado */
+    color: #fbfbfb;
+    /* Cor do texto do menu */
+    font-weight: bold;
+    /* Texto em negrito */
+    font-size: 18px;
+    /* Tamanho da fonte */
+    border-bottom: 2px solid #fea304;
+    /* Adicionando uma linha inferior com cor amarela */
 }
 
 /* Estilos para o efeito de hover nos links do menu */
 li a:hover {
-    color: #e5e120dc; /* Cor do texto ao passar o mouse (hover) */
-    cursor: pointer; /* Alterando o cursor ao passar o mouse */
+    color: #fea304;
+    /* Cor do texto ao passar o mouse (hover) */
+    cursor: pointer;
+    /* Alterando o cursor ao passar o mouse */
 }
 
 /* Estilos para a seção de banner */
 /* Início do banner */
+.banner {
+    position: relative;
+}
+
 .banner h3 {
-    font-size: 4em; /* Tamanho da fonte para o título do banner */
-    color: #ffffff; /* Cor do texto do banner */
+    font-size: 4em;
+    /* Tamanho da fonte para o título do banner */
+    color: #ffffff;
+    /* Cor do texto do banner */
     /*margin-top: 8%; /* Espaçamento superior do título do banner */
-    padding: 5%; /*espaçamento */
+    padding: 15vh;
+    /*espaçamento */
 }
 
 /* Estilos para o texto destacado no banner */
 .banner h3 span {
-    color: #fea304; /* Cor do texto destacado no banner */
+    color: #fea304;
+    /* Cor do texto destacado no banner */
+}
+
+/* incluindo o aviao no banner */
+a.birdFloat {
+    /* Altere o background-image para trocar a imagem, e também edite o height e o width conforme tamanho da imagem */
+    width: 44px;
+    height: 44px;
+    background-image: url("/img/avi.png");
+    background-repeat: no-repeat;
+    position: absolute;
 }
 /* Fim do banner */
 
-
-
 /*estilização do texto latina*/
 .azul-america {
-   padding: 60px;
-   margin-left: 200px;
-   margin-right: 200px; 
+    padding: 60px;
+    margin-left: 343px;
+    margin-right: 343px;
+    border: solid 1px #125a44;
+    font-size: 20px;
 }
 
-
-
-
-
-
-/* Adicione regras de mídia para tornar o layout responsivo em telas menores (exemplo: dispositivos móveis) */
-@media (max-width: 768px) {
-    /* Faça as alterações de estilo desejadas para telas menores */
-    /* Por exemplo, você pode ajustar o tamanho da fonte, o espaçamento e a largura do logotipo */
-    body {
-        font-size: 16px;
-    }
-
-    .logo img {
-        max-width: 150px;
-    }
-}

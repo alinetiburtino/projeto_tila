@@ -1,0 +1,88 @@
+/*Estilização do modo altocontraste*/
+.dark-mode header{
+    background-color: #0b110d;
+}
+
+.light-mode{
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .navigation{
+    background-color: #0b110d;
+}
+
+.dark-mode footer{
+    background-color: #2c4d56;
+}
+
+.dark-mode .texto-sobre-nos{
+    color: white;
+}
+
+.dark-mode .cartao{
+    background-color: #2c4d56;
+}
+.dark-mode .globo h2{
+    color: #125a44;
+}
+
+.contraste{
+    position: fixed;
+    right: 0.5%;
+    top: 42%;
+    background-color: #3186f0;
+    border-radius: 10px;
+    padding: 5px;
+    width: 31px;
+    height: 31px;
+}
+
+#lampadaon{
+    border: none;
+    background-color: transparent;
+}
+
+#lampadaon img{
+ width: 100%;
+}
+
+ #lampadaoff img{
+    width: 100%;
+}
+
+#lampadaoff{
+    background-color: transparent;
+    border: none;
+}
+
+.dica{
+    position: relative;
+}
+
+#hoverText {
+    position: absolute;
+    top: 0;
+    margin-right: 55%;
+    right: 100%;
+    transform: translate(10px, -50%);
+    background-color: #3186f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    transition: opacity 0.3s;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.dica:hover #hoverText {
+    opacity: 1;
+}

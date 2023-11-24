@@ -1,0 +1,67 @@
+/*pontos turisticos*/
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+h3 {
+    text-align: center;
+    font-size: larger;
+    margin-top: 5px;
+}
+
+main.pontos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.ponto-card {
+    border: 0.1px solid #0000004b;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 1rem;
+    width: 400px;
+    box-shadow: 4px 6px #0000004f;
+    background-color: #aaa6a693;
+    text-align: center;
+    flex-direction: column;
+    height: 315px;
+}
+
+.ponto-card:hover {
+    transform: scale(1.1);
+}
+
+.ponto-card img {
+    height: 230px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.ponto-card img:hover {
+    transform: scale(1.0);
+}
+
+.link{
+    padding: 7px;
+    width: 105px;
+    border-radius: 3px;
+    align-items: center;
+    background-color: #125a44;;
+    color: #f0f8ff;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.ponto-card a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.link:hover{
+    background-color: #fea304;
+    color: #000000;
+    cursor: pointer;
+}

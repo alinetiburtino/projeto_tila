@@ -1,0 +1,58 @@
+@media screen and (max-width:783px) {
+    .bandeira-card{
+      margin-left: 3%;
+    }
+    .cabecario h1{
+        margin-left: 17%;
+    }
+    .contato img{
+        margin-left: 450%;
+    }
+    .logog{
+        margin-left: 37%;
+    }
+}
+@media screen and (max-width:510px){
+    .navigation{
+        height: 10vh;
+    }
+    ul li{
+        padding: 30px 5px;
+    }
+    .bandeira-card{
+        margin-left: 17%;
+    }
+    .contato img{
+        margin-left:200%;
+    }
+    .logog{
+        margin-left: 25%;
+    }
+    .cabecario h1{
+        margin-left: 5%;
+    }
+    .cabecario{
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (max-width:615px) {
+    .navigation{
+        height: 10vh;
+    }
+    ul li{
+        padding: 30px 5px;
+    }
+    
+    .bandeira-card{
+        margin-left: 20%;
+    }
+    .contato img{
+        margin-left: 250%;
+    }
+    
+    .logog{
+        margin-left: 30%;
+    }
+}

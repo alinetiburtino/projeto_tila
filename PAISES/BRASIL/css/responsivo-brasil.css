@@ -1,0 +1,25 @@
+@media screen and (max-width:783px) {
+    .navigation {
+        height: 10vh;
+    }
+    ul li {
+        padding: 30px 5px;
+    }
+}
+
+@media screen and (max-width:573px) {
+    #container{
+        justify-content: center;
+    }
+
+    #container img {
+      width: 220px;
+      height: 200px;
+    }
+
+    #container p{
+        width: 200px;
+        height: 400px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/footer-paises.css">
+  <link rel="stylesheet" href="css/bandeiras-paises.css">
+  <link rel="stylesheet" href="css/navegacao-paises.css">
+  <link rel="stylesheet" href="css/altocontraste-paises.css">
+  <link rel="stylesheet" href="css/responsivo-paises.css">
+
+  <title>Países</title>
+  <link rel="shortcut icon" href="img/titleimg.png" >
+</head>
+
+<body>
+
+  <!--ACESSIBILIDADE-->
+  <!--codigo vlibras-->
+  <div vw class="enabled">
+
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  
+  <nav class="navigation">
+
+    <img src="img/logobranca.png" alt="logo">
+
+    <ul class="menu">
+      <li><a href="/index.html">Home</a></li>
+          <li><a href="/SOBRE/">Sobre nós</a></li>
+          <li><a  class="ativo" href="paises.html">Países</a></li>
+          <li><a href="#footer">Contato</a></li>
+    </ul>
+  </nav>
+
+
+  <header>
+
+    <div class="cabecario">
+      <div id="divbusca">
+        <input onkeyup="pesquisa()" class="pesquisa" id="pesquisa" type="text" placeholder="Buscar País..." />
+
+      </div>
+
+      <h1>Países</h1>
+
+    </div>
+  </header>
+
+   <!--Início do contraste-->
+<section class="contraste">
+  <button class="dica" onclick="darkMode()" id="lampadaon">
+  <img src="img/lampada_ON.png" alt="">
+  <p id="hoverText" class="hidden">Alto Contraste</p>
+</button>
+
+<button  class="dica" id="lampadaoff">
+  <img src="img/lampada.png" alt="">
+  <p id="hoverText" class="hidden">Alto Contraste</p>
+</button>
+</section>
+
+  <div class="grid">
+  </div>
+  <div class="container">
+    <div class="h2"></div>
+  </div>
+
+  <footer id="footer">
+    <div>
+      <img class="logog" src="img/logobranca.png" alt="">
+    </div>
+    <div class="entreemcontato">
+      <h2>Entre em contato conosco!</h2>
+    </div>
+
+    <div class="contato">
+
+      <div class="instagram">
+        <a href="https://www.instagram.com/latilatourism/"><img src="img/instagram.png" alt=""></a>
+      </div>
+
+      <div class="whatsapp">
+        <a href="https://wa.me/5511954782136"><img src="img/whatsapp.png" alt=""></a>
+      </div>
+
+      <div class="email">
+        <a href="//mailto:latilatourism@gmail.com.@gmail.com"><img src="img/e-mail.png" alt=""></a>
+      </div>
+
+    </div>
+  </footer>
+  <div class="latila">
+    <p class="log1">&copy; 2023 Latila Tourism</p>
+  </div>
+
+
+
+
+  <script src="js/script-paises.js"></script>
+</body>
+
+</html>

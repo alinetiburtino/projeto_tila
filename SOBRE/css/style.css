@@ -1,0 +1,186 @@
+/*Estilização geral da página*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+/*Estilização de todos os textos h2*/
+h2 {
+  text-align: center;
+  margin: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+/*Estilização do texto mapa*/
+.textomapa {
+  font-size: 20px;
+  background-image: url("../img/imagem.jpg");
+
+}
+
+.ativo {
+  color: #fea304 !important;
+}
+
+.textomapa h2 {
+  font-size: 4em;
+  color: #125a44;
+  padding: 15vh;
+}
+
+/* Estilos para destacar o texto mapa*/
+.textomapa h2 span {
+  color: #fea304;
+}
+
+/*Estilização dos textos*/
+.texto_cartao {
+  margin: 50px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto-sobre-nos {
+  color: black;
+  padding-left: 400px;
+  padding-right: 100px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#span2 {
+  color: #125a44;
+  font-weight: bold
+}
+
+/*Estilização da sessão do globo*/
+.globo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 1600px;
+  height: 800px;
+}
+
+/*Estilização das imagens dos tópicos*/
+.imagem {
+  text-align: center;
+  align-items: center;
+  border-bottom: 2px #2c863e solid;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: left;
+  padding: 50px 25px;
+  position: relative;
+  width: 100%;
+  font-size: larger;
+  margin-left: 80px;
+  margin: 0 auto;
+  max-width: 1140px;
+  color: black;
+
+}
+
+.icone {
+  margin-right: 10px;
+}
+
+/*Estilização da imagem globo*/
+iframe {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+/*Estilizaçaõ da sessão sobre nós*/
+.sobrenos {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-auto-rows: 350px;
+  align-items: center;
+  text-align: center;
+  padding: 75px;
+
+}
+
+.sobre {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+}
+
+.foto {
+  height: 20px;
+}
+
+/*Estilização dos titulos da página*/
+.titulo {
+  margin-top: 100px;
+}
+
+.logobranca {
+  margin-top: 250px;
+
+}
+
+.foto {
+  height: 300px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-top: 59px;
+}
+
+/*Estilização da sessão visão, missão e valores*/
+.cartoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 100px;
+
+}
+
+.cartao {
+  border-radius: 55px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  height: 550px;
+  width: 450px;
+  display: flex;
+  font-size: large;
+  transition: all 0.3s ease-out;
+  margin: 15px 15px 15px 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #d8eddc;
+}
+
+.cartao:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+/*Estilização da foto grupo*/
+.fotogrupo {
+  height: 900px;
+  text-align: center;
+  padding-left: 200px;
+}
+
+#span2 {
+  font-size: 33px;
+}

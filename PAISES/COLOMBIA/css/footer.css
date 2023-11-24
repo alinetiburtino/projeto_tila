@@ -1,0 +1,38 @@
+
+footer {
+    background-color: #220315;
+    height: 100%;
+    padding: 50px;
+    color: #ffffff;
+  }
+  
+  .contato {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contato img {
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    margin: 1rem;
+    margin-left: 950%;
+    color: #ffffff;
+  }
+  
+  .latila {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .entreemcontato {
+    text-align: center;
+  }
+  
+  
+  .logog {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 572px;
+  }

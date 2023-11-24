@@ -1,194 +1,216 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
-    <!-- Definindo o tipo de documento e o idioma da página -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Definindo a codificação de caracteres e a escala da página -->
-    <title>Latila Tourism</title>
-    <!-- Definindo o título da página exibido na aba do navegador -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/Carrossel.css">
-    <link rel="stylesheet" href="css/paisesvisitados.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <!-- Incluindo folhas de estilo CSS externas -->
+  <!-- Definindo o tipo de documento e o idioma da página -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Definindo a codificação de caracteres e a escala da página -->
+  <title>Latila Tourism</title>
+  <link rel="shortcut icon" href="img/titleimg.png" >
+  <!-- Definindo o título da página exibido na aba do navegador -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/Carrossel.css">
+  <link rel="stylesheet" href="css/paisesvisitados.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/dispositivos.css">
+  <link rel="stylesheet" href="css/altocontraste.css">
+  <!-- Incluindo folhas de estilo CSS externas -->
 </head>
+
 <body>
-    <header>
-        <!-- Início do cabeçalho da página -->
-        <div class="logo">
-             <img src="img/logobranca.png" alt="Logo">
-             <!-- Incluindo um logotipo com texto alternativo para acessibilidade -->
-        </div>
-        
-        <nav>
-            <!-- Barra de navegação -->
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Países</a></li>
-                <li><a href="#">Contato</a></li>
-                <!-- Lista de links para as diferentes páginas do site -->
-            </ul>
-        </nav>
-        <section class="banner">
-            <!-- Seção de banner ou destaque na página -->
-            <h3>DESCUBRA SEU <span>NOVO DESTINO </span>COM <SPAN>LATILA</SPAN></h3>
-            <!-- Texto de destaque na página -->
-        </section>  
-    </header>
-
-    <!-- Carrossel de imagens -->
-    <div class="slider-container">
-        <section class="slider">
-            <!-- Carrossel de imagens com setas de navegação -->
-            <div class="seta arrow-left"><span class="material-symbols-outlined"></span></div>
-            <!-- Seta de navegação esquerda -->
-            <img src="img/mex.jpg" alt="slide-1.jpg">
-            <!-- Imagem do carrossel com texto alternativo -->
-            <img src="img/pra.jpg" alt="slide-2.jpg">
-            <!-- Imagem do carrossel com texto alternativo -->
-            <img src="img/bra.jpg" alt="slide-3.jpg">
-            <!-- Imagem do carrossel com texto alternativo -->
-            <img src="img/arg.jpg" alt="slide-3.jpg">
-            <!-- Imagem do carrossel com texto alternativo -->
-            <div class="seta arrow-right"><span class="material-symbols-outlined">></span></div>
-            <!-- Seta de navegação direita -->
-        </section>
-        <div class="paginacao">
-            <!-- Paginação para os slides do carrossel -->
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <!-- Marcadores ou pontos para indicar o slide atual -->
-        </div>
-    </div>
-    <!-- Fim do carrossel de imagens -->
-
-    <!-- Seção sobre a América Latina -->
-    <div class="azul-america">
-        <!-- Uma seção de conteúdo com informações sobre a América Latina -->
-        <p>
-            A América Latina é um destino turístico extraordinário que cativa os visitantes com sua beleza natural deslumbrante,
-             rica herança cultural e hospitalidade calorosa. De praias tropicais a majestosas cordilheiras, de cidades vibrantes
-            a antigas ruínas, a América Latina oferece uma experiência de viagem única.
-        </p>
-        <p>Você pode explorar as selvas da Amazônia no Brasil, saborear a culinária picante do México, dançar ao ritmo contagiante
-             da salsa em Cuba ou maravilhar-se com as civilizações antigas dos Incas no Peru. Os mercados coloridos, festivais animados
-              e a diversidade de flora e fauna tornam a América Latina um lugar verdadeiramente fascinante.
-        </p>
+  <header>
+    <!-- Início do cabeçalho da página -->
+    <div class="logo">
+      <img src="img/logobranca.png" alt="Logo">
+      <!-- Incluindo um logotipo com texto alternativo para acessibilidade -->
     </div>
 
-    <!--países mais visitados-->
+    <nav>
+      <!-- Barra de navegação -->
+      <ul class="menu">
+        <li><a  class="ativo" href="/index.html">Home</a></li>
+            <li><a href="/SOBRE/">Sobre nós</a></li>
+            <li><a href="/PAISES/paises.html">Países</a></li>
+            <li><a href="#footer">Contato</a></li>
+      </ul>
 
-<main>
+    </nav>
+    <!-- Lista de links para as diferentes páginas do site -->
 
- 
+
+
+
+    <!--banner-->
+    <section class="banner">
+      <a href="" class='birdFloat'></a>
+      <!-- Seção de banner ou destaque na página -->
+      <h3 class="descubra">DESCUBRA SEU <span>NOVO DESTINO </span>COM <SPAN>LATILA</SPAN></h3>
+      <!-- Texto de destaque na página -->
+    </section>
+    <!--fim do banner-->
+  </header>
+  <!--fim do headere-->
+
+    <!--ALTO CONTRASTE-->
+    <div class="lampada-container">
+      <button class="dica" onclick="darkMode()" id="lampadaon">
+        <img class="imglampada" src="/img/lampada_ON.png" alt="">
+        <p id="hoverText" class="hidden">Alto Contraste</p> 
+      </button>
+      <button class="dica"  id="lampadaoff">
+        <img class="imglampada" src="/img/lampada.png" alt="">
+        <p id="hoverText" class="hidden">Alto Contraste</p>
+      </button>
+    </div>
+    <!--fim do auto contraste-->
+
+    <!--vlibras-->
+    <div vw class="enabled">
+
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!--vlibras-->
+
+  <!-- Carrossel de imagens -->
+  <div class="slider-container">
+    <section class="slider">
+      <!-- Carrossel de imagens com setas de navegação -->
+      <div class="seta arrow-left"><span class="material-symbols-outlined">
+          </span>
+      </div>
+      <!-- Seta de navegação esquerda -->
+      <img src="img/mex.jpg" alt="slide-1.jpg">
+      <!-- Imagem do carrossel com texto alternativo -->
+      <img src="img/pra.jpg" alt="slide-2.jpg">
+      <!-- Imagem do carrossel com texto alternativo -->
+      <img src="img/bra.jpg" alt="slide-3.jpg">
+      <!-- Imagem do carrossel com texto alternativo -->
+      <img src="img/arg.jpg" alt="slide-3.jpg">
+      <!-- Imagem do carrossel com texto alternativo -->
+      <div class="seta arrow-right"><span class="material-symbols-outlined">></span></div>
+      <!-- Seta de navegação direita -->
+    </section>
+    <div class="paginacao">
+      <!-- Paginação para os slides do carrossel -->
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <!-- Marcadores ou pontos para indicar o slide atual -->
+    </div>
+  </div>
+  <!-- Fim do carrossel de imagens -->
+
+  <!-- Seção sobre a América Latina -->
+  <div class="azul-america">
+    <!-- Uma seção de conteúdo com informações sobre a América Latina -->
+    <p>
+      A América Latina é um destino turístico extraordinário que cativa os visitantes com sua beleza natural
+      deslumbrante,
+      rica herança cultural e hospitalidade calorosa. De praias tropicais a majestosas cordilheiras, de cidades
+      vibrantes
+      a antigas ruínas, a América Latina oferece uma experiência de viagem única.
+    </p>
+    <!---->
+    <p>Você pode explorar as selvas da Amazônia no Brasil, saborear a culinária picante do México, dançar ao ritmo
+      contagiante
+      da salsa em Cuba ou maravilhar-se com as civilizações antigas dos Incas no Peru. Os mercados coloridos, festivais
+      animados
+      e a diversidade de flora e fauna tornam a América Latina um lugar verdadeiramente fascinante.
+    </p>
+  </div>
+  <!--termina seção sobre a américa-->
+
+  <!--países mais visitados-->
+  <main>
 
     <h2>Países mais visitados</h2>
     <section class="galley-main">
-        <figure class="gallery-element">
-            <a href="img/mex.jpg">
-                    <img src="img/mex.jpg" alt="Montain Italy"> 
-                    <h3>México</h3>             
-                </a>
-        </figure><!--gallery-element-->
+      <figure class="gallery-element">
+        <a href="/PAISES/MEXICO/mexico.html">
+          <img src="img/mex.jpg" alt="Montain Italy" >
+          <h3>México</h3>
+        </a>
         
-  
-  
-  
-        <figure class="gallery-element">
-            <a href="img/bra.jpg">
-                <img src="img/bra.jpg" alt="Ocean California">
-                <h3>Brasil</h3>
-            </a>
-        </figure><!--gallery-element-->
+      </figure><!--gallery-element-->
+
+      <!---->
+
+      <figure class="gallery-element">
         
-  
-        <figure class="gallery-element">
-            <a href="img/arg.jpg">
-                <img src="img/arg.jpg" alt="Lake Irene">
-                <h3>Argentina</h3>             
-            </a>    
-        
-       
-    
+        <a href="/PAISES/BRASIL/brasil.html">
+          <img src="img/bra.jpg" alt="Ocean California">
+          <h3>Brasil</h3>
+        </a>
+      </figure><!--gallery-element-->
+
+      <!---->
+
+      <figure class="gallery-element">
+        <a href="/PAISES/ARGENTINA/argentina.html">
+          <img src="img/arg.jpg" alt="Lake Irene">
+          <h3>Argentina</h3>
+        </a>
+      </figure><!--gallery-element-->
+
     </section><!--gallerry-main-->
-  </main>  <br><br>
+
+  </main> <br><br>
+  <!--termina paises mais visitados-->
 
 
+ 
 
   <!--Inicio do footer-->
+  <footer id="footer">
+    <div class="logog">
+      <img class="logofooter" src="img/logobranca.png" alt="">
+    </div>
+    <div class="entreemcontato">
+      <h2>Entre em contato conosco!</h2>
+    </div>
 
-<div class="logobranca">
-  
-    <ul>
-   <img src="img/logo1 (1).png" alt="">
-   </ul>
-   </div>
-          
-       <footer> 
-     <div>
-     <h2 class="footer1">Indicação</h2>
-      <ul class="lista">
-      <li><a href="#"><img src="img/pcdatual.png" class="logopcd"></br> para pcds</a></li>
-       </ul>
-       </div>
-       
-     <div>
-      <h2 class="footer1">Navegue pelo site</h2>
-       <ul class="lista">
-       <li><a href="#">Países para visitar</a></li>
-       <li><a href="#">Passeios</a></li>
-         <li><a href="#">Sites e pousadas</a></li>
-   </ul>
-    </div>
-             
-    <div class="lista2">
-     <h2 class="footer1">Nos siga nas redes sociais</h2>
-      <ul class="lista">
-     <li><a href="#" i class="fab fa-facebook"></i>
-      <a href="#"><img src="img/facebook.png"> facebook</a></li>
-       
-       <li><a href="#" i class="fab fa-instagram"></i>
-         <a href="https://www.instagram.com/latilatourism/"><img src="img/instagram (3).png"> @latilatourism</a></li>
-    </ul>
-    </div>
-       
-    <div>
-      <h2 class="footer1">Entre em contato conosco</h2>
-      <ul class="lista">
-      <li><img src="img/whatsapp (1).png"> (11)xxxxx-xxxx</li>
-       <li><img src="img/gmail.png"> latilatourism@gmail.com</li>
-     </ul>
-     </div>
-       
+    <section class="logos_contato">
+
+      <div id="redes_sociais">
+        <a href="https://www.instagram.com/latilatourism/"><img src="img/instagram.png" alt=""></a>
+      </div>
+
+      <div >
+        <a href="https://wa.me/5511954782136"><img src="img/whatsapp.png" alt=""></a>
+      </div>
+
+      <div >
+        <a href="//mailto:latilatourism@gmail.com.@gmail.com"><img src="img/e-mail.png" alt=""></a>
+      </div>
+
+    </section>
    
-    </footer>
-       
-       <!-- fim footer -->
-       
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <footer class="footer2">
-    <p class="pfooter">&copy; 2023 LatilaTourism</p>
   </footer>
-  
-  
-  
-  
-  
 
-        
-<script src="js/script.js"></script>
-<!-- Incluindo um script JavaScript externo para funcionalidades adicionais -->
+  <div  class="latila">
+    <p>&copy; 2023 Latila Tourism</p>
+</div>
+
+
+
+  <!--SCRIPT DO AVIÃO-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- Para indicar um link use a tag a, e adicione o link no atributo href -->
+
+
+
+
+  <script src="js/script.js"></script>
+  <!-- Incluindo um script JavaScript externo para funcionalidades adicionais -->
 </body>
+
 </html>

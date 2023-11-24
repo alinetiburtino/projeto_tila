@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/nav-argentina.css">
+  <link rel="stylesheet" href="css/header-argentina.css">
+  <link rel="stylesheet" href="css/cards-argentina.css">
+  <link rel="stylesheet" href="css/pontos-turisticos.css">
+  <link rel="stylesheet" href="css/link-argentina.css">
+  <link rel="stylesheet" href="css/footer-argentina.css">
+  <link rel="stylesheet" href="css/altocontraste-argentina.css">
+  <link rel="stylesheet" href="css/responsivo-argentina.css">
+
+
+  <!--codico da API-->
+  <link rel="stylesheet" href="css/clima-informacoes-argentina.css" />
+  <script src="js/scriptcli-argentina.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--fecha API-->
+
+
+  <title>Argentina</title>
+  <link rel="shortcut icon" href="img/titleimg.png">
+</head>
+
+<body>
+
+  <!--vlibras-->
+
+  <div vw class="enabled">
+
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <!--vlibras-->
+
+  <section class="contraste">
+    <button onclick="darkMode()" id="lampadaon">
+      <img src="img/lampada_ON.png" alt="">
+      <p id="hoverText" class="hidden">Alto Contraste</p>
+    </button>
+
+    <button id="lampadaoff">
+      <img src="img/lampada.png" alt="">
+      <p id="hoverText" class="hidden">Alto Contraste</p>
+    </button>
+  </section>
+
+
+  <nav class="navigation">
+
+    <img src="img/logobranca.png" alt="logo">
+
+    <ul class="menu">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/SOBRE/index.html">Sobre nós</a></li>
+      <li><a  class="ativo" href="/PAISES/paises.html">Países</a></li>
+      <li><a href="#footer">Contato</a></li>
+    </ul>
+  </nav>
+
+  <div class="tittle">
+    <h2>História da Argentina</h2>
+  </div>
+
+  <!--inicio dos cards-->
+  <section id="container">
+
+    <img class="img" src="img/mountain-5138181_1920.jpg">
+
+
+    <div>
+      <p class="p">
+        Parte 1: Período Pré-Colombiano até a Colonização:<br>
+        A história da Argentina remonta aos povos indígenas que habitavam a região antes da chegada dos
+        colonizadores europeus. Diferentes grupos indígenas, como os Guaranis e os Incas, ocupavam o território.
+        Em 1516, o explorador espanhol Juan Díaz de Solís chegou à região, mas foi
+        somente em 1536 que Pedro de Mendoza estabeleceu a primeira colônia espanhola, que acabou por falhar
+        devido
+        a conflitos com os indígenas e condições climáticas adversas.
+      </p>
+    </div>
+
+
+
+
+    <div>
+      <p class="p">Parte 2: Período Colonial até a Independência:<br>
+        Após várias tentativas de colonização, em 1776, os espanhóis estabeleceram o Vice-Reinado do Rio da
+        Prata.
+        Durante o final do século XVIII e início do século XIX, o
+        Pais foi um centro de agitação política e social, influenciada pelas ideias iluministas e pelos
+        movimentos de independência na América Latina. Em 1816, os líderes regionais declararam a independência
+        da
+        Espanha, formando a Confederação Argentina.
+        O século XIX foi marcado por conflitos internos e lutas pela consolidação do país como uma nação
+        independente.
+      </p>
+    </div>
+
+
+
+    <img class="img" src="img/pink-house-7373063_1920.jpg">
+
+    <img class="img" src="img/waterfall-4587690_1920.jpg">
+
+
+    <div>
+      <p class="p">Parte 3: A Argentina passou por uma modernização significativa no final do século XIX,
+        impulsionada pela imigração em massa e pela expansão econômica baseada na agricultura e pecuária.
+        No início do século XX, a Argentina experimentou um período de prosperidade, mas também enfrentou
+        instabilidade política e social. O país passou por governos democráticos, ditatoriais e populistas ao
+        longo
+        do século. Nos últimos anos, o país tem lutado para enfrentar questões econômicas
+        e sociais complexas, mantendo sua posição como uma das principais economias da América Latina.</p>
+    </div>
+
+
+  </section>
+
+
+  <!--fim dos cards-->
+
+  <!--pontos turisticos-->
+
+  <h2>Pontos Turísticos</h2>
+
+  <main class="pontos" id="pontos-turisticos">
+
+    <div class="ponto-card">
+      <img src="img/ponto1.png" alt="Ponto 1">
+      <h3>Buenos Aires</h3>
+      <a
+        href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/buea/231020/231021/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=true&ref=home&rtn=1">
+        <p class="link">Buscar preços</p>
+      </a>
+    </div>
+
+    <div class="ponto-card">
+      <img src="img/ponto2.png" alt="Ponto 1">
+      <h3>Mendoza</h3>
+      <a
+        href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/mdza/231020/231021/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+        <p class="link">Buscar preços</p>
+      </a>
+    </div>
+
+    <div class="ponto-card">
+      <img src="img/ponto3.png" alt="Ponto 1">
+      <h3>San Carlos de Bariloche</h3>
+      <a
+        href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/brca/231020/231021/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+        <p class="link">Buscar preços</p>
+      </a>
+    </div>
+
+    <div class="ponto-card">
+      <img src="img/ponto4.png" alt="Ponto 1">
+      <h3>Córdoba</h3>
+      <a
+        href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/cora/231020/231021/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+        <p class="link">Buscar preços</p>
+      </a>
+    </div>
+
+    <div class="ponto-card">
+      <img src="img/ponto5.png" alt="Ponto 1">
+      <h3>Puerto Iguazú</h3>
+      <a
+        href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/igra/231020/231021/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+        <p class="link">Buscar preços</p>
+      </a>
+    </div>
+
+    <div class="ponto-card">
+      <img src="img/ponto6.png" alt="Ponto 1">
+      <h3>Rosário</h3>
+      <a
+        href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/rosa/231020/231021/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1">
+        <p class="link">Buscar preços</p>
+      </a>
+    </div>
+
+
+  </main>
+
+  <!--fim dos pontos turisticos-->
+
+
+  <section class="clima-informação">
+    <!--informações-->
+    <div class="informacao">
+      <h3>Informações de riscos sobre a Argentina:</h3>
+      <p>Apesar de a Argentina ser um destino turístico muito popular, repleto de visitantes (e batedores de carteira
+        junto com eles), este país está entre os mais seguros da América do Sul. No geral, a Argentina é um país
+        onde você deve se sentir seguro.<br><br>
+        Siga as regras gerais de precaução e o bom senso, e sua viagem será tranquila. O principal problema da
+        Argentina são os pequenos crimes nas ruas, já que sua taxa é muito alta. Batedores de carteira e roubos de
+        bolsa são muito comuns na Argentina, na verdade é um risco constante. O roubo de telefones celulares também
+        acontece, então você deve manter todos os seus objetos de valor fora de vista. Evite usar bolsas e guarde
+        seu dinheiro em um lugar escondido, não facilmente acessível para batedores de carteira.<br><br>
+        Infelizmente, a Argentina está exposta a vários desastres naturais como terremotos, erupções vulcânicas e
+        tempestades que podem causar enormes inundações (geralmente atingindo os pampas e o nordeste).
+        Para uma mulher que viaja sozinha, a Argentina geralmente é segura. Você deve saber que à noite você pode
+        receber alguma atenção indesejada e assobios de homens, então você provavelmente deve evitar áreas próximas
+        a bares e clubes e ir de táxi, não a pé. Evite andar sozinho em áreas desertas e mal iluminadas. Fora isso,
+        você não deverá encontrar problemas.
+      </p>
+    </div>
+
+
+    <!--api do clima-->
+
+    <div class="clima">
+      <div class="form">
+        <h3>Confira o Clima de uma cidade:</h3>
+        <div class="form-input-container">
+          <input type="text" placeholder="Digite o nome da cidade*" id="city-input">
+          <button id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+      <div id="weather-data" class="hide">
+        <h2>
+          <i class="fa-solid fa-location-dot"></i>
+          <span id="city"></span>
+          <img crossorigin="anonymous" src="" id="country">
+        </h2>
+        <p id="temperature"><span></span>&deg;C</p>
+        <div id="description-container">
+          <p id="description"></p>
+          <img crossorigin="anonymous" src="" id="weather-icon">
+        </div>
+        <div id="details-container">
+          <p id="humidity">
+            <i class="fa-solid fa-droplet"></i>
+            <span></span>
+          </p>
+          <p id="wind">
+            <i class="fa-solid fa-wind"></i>
+            <span></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--termina api-->
+  </section>
+  <!--termina as informações-->
+
+  <!--Botão-->
+  <Section class="click">
+    <P>Conheça outros pontos turísticos da Argentina acessando </P>
+    <a
+      href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/ar/231023/231024/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&preferdirects=true&outboundaltsenabled=false&inboundaltsenabled=false">
+      skyscanner.com.br/</a>
+  </Section>
+
+  <!--Footer-->
+
+  <footer id="footer">
+    <div>
+      <img class="logog" src="img/logobranca.png" alt="">
+    </div>
+    <div class="entreemcontato">
+      <h2>Entre em contato conosco!</h2>
+    </div>
+
+    <div class="contato">
+
+
+      <div class="instagram">
+        <a href="https://www.instagram.com/latilatourism/"><img src="img/instagram.png" alt=""></a>
+      </div>
+
+
+
+      <div class="whatsapp">
+        <a href="https://wa.me/5511954782136"><img src="img/whatsapp.png" alt=""></a>
+      </div>
+
+      <div class="email">
+        <a href="//mailto:latilatourism@gmail.com.@gmail.com"><img src="img/e-mail.png" alt=""></a>
+      </div>
+
+
+    </div>
+
+
+  </footer>
+
+
+  <div class="latila">
+    <p>&copy; 2023 Latila Tourism</p>
+  </div>
+  <!-- fim footer -->
+
+
+</body>
+
+</html>

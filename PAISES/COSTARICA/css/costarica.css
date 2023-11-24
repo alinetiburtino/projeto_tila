@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*nav*/
+.navigation {
+    background-color: #125a44;
+    color: #fbfbfb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+.navigation img {
+    width: 12%;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #cadd1cf4;
+    cursor: pointer;
+}
+
+ul li {
+    text-align: center;
+    align-items: center;
+    border-bottom: 2px #2c863e solid;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    padding: 60px 25px;
+    width: 100%;
+    font-size: larger;
+    margin: 0 auto;
+}
+
+
+/*fim nav*/
+
+/*header*/
+header {
+    background-color: #125A44;
+    color: #ffffff;
+    text-shadow: 4px 4px #000000;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.tittle {
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+}
+
+/*fim do header*/
+
+/*card1*/
+#container {
+    display: grid;
+    grid-template-areas:
+        'descriçao';
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    align-items: center;
+    border-width: 1.1px;
+    margin: 10px;
+}
+
+.p {
+    text-align: justify;
+    padding: 30px;
+    font-size: 22px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(6, 50, 5);
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    justify-self: center;
+
+}
+
+/*card1*/
+/*card2*/
+#container1 {
+    display: grid;
+    grid-template-areas:
+        'descriçao';
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    align-items: center;
+    border-width: 1.1px;
+    margin: 10px;
+}
+
+.p1 {
+    text-align: justify;
+    padding: 30px;
+    font-size: 22px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(6, 50, 5);
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img1 img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    justify-self: center;
+
+}
+
+/*card3*/
+#container2 {
+    display: grid;
+    grid-template-areas:
+        'descriçao';
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    margin: 10px;
+}
+
+.p2 {
+    text-align: justify;
+    padding: 30px;
+    font-size: 22px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(6, 50, 5);
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img2 img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+
+/*pontos turisticos*/
+
+
+/*teste*/
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+main.pontos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.ponto-card {
+    border: 0.1px solid #0000004b;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 1rem;
+    width: 400px;
+    box-shadow: 0 2px 4px #0000004f;
+    background-color: #c2c2c23a;
+    text-align: center;
+    flex-direction: column;
+    height: 290px;
+}
+
+.ponto-card img {
+    height: 230px;
+    width: 100%;
+    border-radius: 5px;
+}
+/*informações do pais*/
+
+
+/*botão*/
+.click {
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+}
+
+.click a {
+    padding-left: 10px;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    padding: 3rem;
+    background-color: #125A44;
+    color: #ffffff;
+}

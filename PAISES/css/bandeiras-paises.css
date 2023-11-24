@@ -1,0 +1,50 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.link-paises{
+    text-decoration: none;
+    color: #ffffff;
+}
+.btn {
+    border: none;
+    padding: 7px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #125a44;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #fea304;
+    color: #000000;
+}
+
+.bandeira-card {
+    align-items: center;
+    text-align: center;
+    background-color: #aaaaaa3a;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #00000094;
+    margin: 1rem;
+    width: 310px;
+    max-width: 100%;
+    flex-direction: column;
+    height: 300px;
+}
+.bandeira-card:hover{
+    transform: scale(1.1);
+}
+
+.bandeira-card img {
+    width: 100%;
+    height: 210px;
+    border-radius: 5px;
+}
+.bandeira-card img:hover{
+   transform: scale(1.0);
+}

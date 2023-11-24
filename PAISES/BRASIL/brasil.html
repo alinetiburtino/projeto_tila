@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/brasil.css">
+    <link rel="stylesheet" href="css/nav-brasil.css">
+    <link rel="stylesheet" href="css/heather-brasil.css">
+    <link rel="stylesheet" href="css/cads-brasil.css">
+    <link rel="stylesheet" href="css/pontos-brasil.css">
+    <link rel="stylesheet" href="css/footer-brasil.css">
+    <link rel="stylesheet" href="css/link-brasil.css">
+    <link rel="stylesheet" href="css/informacao-brasil.css">
+    <link rel="stylesheet" href="css/altocontraste-brasil.css">
+    <link rel="stylesheet" href="css/indicação.tlg-brasil.css">
+    <link rel="stylesheet" href="css/responsivo-brasil.css">
+
+
+     <!--codico da API-->
+     <link rel="stylesheet" href="css/clima-informacoes-brasil.css" />
+     <script src="js/scriptcli-brasil.js" defer></script>
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+       rel="stylesheet"
+     />
+ 
+     <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+       crossorigin="anonymous"
+       referrerpolicy="no-referrer"
+     />
+     <!--fecha API-->
+
+    <title>Brasil</title>
+    <link rel="shortcut icon" href="img/titleimg.png" >
+</head>
+
+<body>
+
+    <div vw class="enabled">
+      
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+ 
+<section class="contraste">
+  <button onclick="darkMode()" id="lampadaon">
+  <img src="img/lampada_ON.png" alt="">
+  <p id="hoverText" class="hidden">Alto Contraste</p>
+</button>
+
+<button id="lampadaoff">
+  <img src="img/lampada.png" alt="">
+  <p id="hoverText" class="hidden">Alto Contraste</p>
+</button>
+</section>
+
+    <nav class="navigation">
+
+
+        <img src="img/logobranca.png" alt="logo">
+
+        <ul class="menu">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/SOBRE/index.html">Sobre nós</a></li>
+          <li><a class="ativo" href="/PAISES/paises.html">Países</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="tittle">
+        <h2>História do Brasil</h2>
+    </div>
+
+     <!--inicio dos cards-->
+     <section id="container">
+
+        <img class="img" src="img/praia.jpg">
+
+
+        <div>
+            <p class="p">
+                Período Colonial e Independência (1500-1822)
+
+                A história do Brasil começa em 1500, quando o navegador português Pedro Álvares Cabral chegou às costas
+                brasileiras. Durante o período colonial, o Brasil foi uma colônia de exploração, com a produção de açúcar
+                sendo a principal atividade econômica, utilizando mão-de-obra escrava africana. Em 1822, o príncipe herdeiro
+                Dom Pedro proclamou a independência do Brasil, tornando-o um império com Dom Pedro I como imperador.
+            </p>
+        </div>
+
+
+
+
+        <div>
+            <p class="p1">Período Imperial e República Velha (1822-1930)
+
+                O Brasil imperial enfrentou conflitos políticos e sociais, incluindo a Guerra do Paraguai e a abolição da
+                escravidão em 1888. Em 1889, um golpe militar instaurou a República, marcando o início da República Velha.
+                Esse período foi caracterizado pelo domínio político das elites cafeicultoras, com uma economia centrada na
+                produção de café e uma política de "café com leite" entre São Paulo e Minas Gerais.
+            </p>
+        </div>
+
+
+
+        <img class="img1" src="img/mar.jpg">
+
+        <img class="img2" src="img/rio.jpg">
+
+
+        <div>
+            <p class="p2">Era Vargas, Ditadura Militar e Redemocratização (1930-Presente)
+
+                A Era Vargas (1930-1945) foi marcada pelas reformas sociais e econômicas implementadas pelo presidente
+                Getúlio Vargas. Após um breve período democrático, o Brasil passou por uma ditadura militar de 1964 a 1985,
+                caracterizada por repressão política. A redemocratização começou nos anos 1980, culminando na promulgação da
+                Constituição de 1988. Desde então, o Brasil experimentou avanços sociais, mas também enfrentou desafios
+                econômicos e políticos, incluindo problemas de corrupção e instabilidade política.</p>
+        </div>
+
+
+    </section>
+
+
+    <!--fim dos cards-->
+
+    <!--pontos turisticos-->
+
+    <h2>Pontos Turísticos</h2>
+
+    <main class="pontos" id="pontos-turisticos">
+
+        <div class="ponto-card">
+            <img src="img/ponto1 (2).png" alt="Ponto 1">
+            <h3>Curitiba</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/cwba/231116/231117/?adultsv2=1&cabinclass=economy&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=true&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto2.(2).png" alt="Ponto 1">
+            <h3>Porto Alegre</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/poaa/231116/231117/?adultsv2=1&cabinclass=economy&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=true&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto3.(2).png" alt="Ponto 1">
+            <h3>Goiânia</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/gyna/231116/231117/?adultsv2=1&cabinclass=economy&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=true&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto4.(2).png" alt="Ponto 1">
+            <h3>Vitória da Conquista</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/vdca/231116/231117/?adultsv2=1&cabinclass=economy&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=true&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto5.(2).png" alt="Ponto 1">
+            <h3>Londrina</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/ldba/231116/231117/?adultsv2=1&cabinclass=economy&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=true&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+        <div class="ponto-card">
+            <img src="img/ponto6.(2).png" alt="Ponto 1">
+            <h3>Rio de Janeiro</h3>
+            <a
+                href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/rioa/231116/231117/?adultsv2=1&cabinclass=economy&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=true&ref=home&rtn=1">
+                <p class="link">Buscar preços</p>
+            </a>
+        </div>
+
+
+    </main>
+
+    <!--fim dos pontos turisticos-->
+
+
+    <section class="clima-informação-brasil">
+    <!--informações-->
+    <div class="informacao">
+        <h3>Informações de riscos sobre o Brasil:</h3>
+        <p>O Brasil é um dos países mais criminalizados do mundo , portanto, não é a escolha mais segura. Deve-se tomar
+            cuidado nas ruas das grandes cidades, e à noite. Desconfie de batedores de carteira e roubos de bolsa e
+            mantenha seus objetos de valor com segurança ao seu lado. Nunca carregue todo o seu dinheiro em um só lugar
+            ou deixe seus objetos de valor à vista de todos no carro ou na praia ao nadar.<br> <br>
+            Então, não se pode subestimar os riscos. Sua experiência pode ser muito positiva tanto quanto muito negativa
+            caso presencie um assalto.
+            Existem algumas ameaças naturais no Brasil, como insetos perigosos e doenças que eles carregam, e correntes
+            de maré. É por isso que é importante nunca nadar sozinho. <br><br>
+            Viajar para o Brasil é geralmente seguro para mulheres sozinhas, mas lembre-se de que você deve caminhar
+            sempre acompanhada, nunca sozinha. Tenha cuidado especial no Nordeste e na área remota da Amazônia. Fique
+            longe de ruas, áreas mal iluminadas e desertas e de pessoas visivelmente alcoolizadas ou sob a influência.
+
+        </p>
+    </div>
+    <!--termina as informações-->
+
+
+    <!--api do clima-->
+
+    <div class="clima">
+        <div class="form">
+          <h3>Confira o Clima de uma cidade:</h3>
+          <div class="form-input-container">
+            <input type="text" placeholder="Digite o nome da cidade*" id="city-input">
+            <button id="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+        <div id="weather-data" class="hide">
+          <h2>
+            <i class="fa-solid fa-location-dot"></i>
+            <span id="city"></span>
+            <img crossorigin="anonymous" src="" id="country">
+          </h2>
+          <p id="temperature"><span></span>&deg;C</p>
+          <div id="description-container">
+            <p id="description"></p>
+            <img crossorigin="anonymous" src="" id="weather-icon">
+          </div>
+          <div id="details-container">
+            <p id="humidity">
+              <i class="fa-solid fa-droplet"></i>
+              <span></span>
+            </p>
+            <p id="wind">
+              <i class="fa-solid fa-wind"></i>
+              <span></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--termina api-->
+
+
+    <!--indicação tlg-->
+    <div class="indicação">
+      <p>Para viagens acessivéis pelo Brasil acesse:</p>
+      <img class="tlg" src="img/logo.tlg.png" alt="">
+    </div>
+
+    <!--Botão-->
+    <Section class="click">
+      <P>Conheça outros pontos turísticos do Brasil acessando </P>
+      <a class="link-sky"
+          href="https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/br/231114/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=0&preferdirects=true&outboundaltsenabled=false&inboundaltsenabled=false">
+          skyscanner.com.br/</a>
+  </Section>
+
+
+
+    <!--Footer-->
+
+    <footer id="footer">
+        <div>
+          <img class="logog" src="img/logobranca.png" alt="">
+        </div>
+        <div class="entreemcontato">
+          <h2>Entre em contato conosco!</h2>
+        </div>
+    
+        <div class="contato">
+    
+    
+          <div class="instagram">
+            <a href="https://www.instagram.com/latilatourism/"><img src="img/instagram.png" alt=""></a>
+          </div>
+    
+          
+    
+          <div class="whatsapp">
+            <a href="https://wa.me/5511954782136"><img src="img/whatsapp.png" alt=""></a>
+          </div>
+    
+          <div class="email">
+            <a href="//mailto:latilatourism@gmail.com.@gmail.com"><img src="img/e-mail.png" alt=""></a>
+          </div>
+    
+          
+        </div>
+    
+        
+      </footer>
+    
+
+      <div class="latila">
+        <p>&copy; 2023 Latila Tourism</p>
+    </div>
+           <!-- fim footer -->
+</body>
+
+</html>
