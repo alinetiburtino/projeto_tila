@@ -74,13 +74,13 @@ document.addEventListener('DOMContentLoaded', () => {
            
         },
         {
-            name: 'Nicaragua',
+            name: 'Nicarágua',
             img: 'img/nicaragua.png',
             link: 'https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/ni/231122/231123/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false'
            
         },
         {
-            name: 'Panama',
+            name: 'Panamá',
             img: 'img/panama.png',
             link: 'https://www.skyscanner.com.br/transporte/passagens-aereas/saoa/pa/231122/231123/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false'
         },

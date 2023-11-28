@@ -4,6 +4,10 @@
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #220315;
   height: 100%;
   padding: 50px;
@@ -22,7 +26,7 @@ footer {
   height: 40px;
   justify-content: center;
   margin: 1rem;
-  margin-left: 1050%;
+  margin-left: 27%;
   color: #ffffff;
 }
 
@@ -43,10 +47,10 @@ footer {
 
 
 .logog {
-  width: 200px;
+  width: 20%;
   display: flex;
   justify-content: center;
-  margin-left: 572px;
+  margin-left: 43%;
 }
 
 html {
@@ -60,6 +64,5 @@ body {
   min-height: 100%;
 }
 
-footer {
-  margin-top: auto;
-}
+
+

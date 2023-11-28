@@ -8,18 +8,21 @@
 }
 
 @media screen and (max-width:573px) {
-    #container{
+    #container {
         justify-content: center;
     }
 
-    #container img {
-      width: 220px;
-      height: 200px;
+    #container .img {
+        width: 220px;
+        height: 200px;
     }
 
-    #container p{
+    #container .p {
         width: 200px;
         height: 400px;
         font-size: 15px;
     }
 }
+
+
+

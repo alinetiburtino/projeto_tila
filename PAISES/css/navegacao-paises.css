@@ -5,7 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 15vh;
+    height:15vh;
 }
 
 .navigation img {
@@ -22,7 +22,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 nav ul li a {
@@ -43,13 +43,13 @@ ul li {
     box-sizing: border-box;
     display: flex;
     justify-content: left;
-    padding: 50px 25px;
+    padding: 11% 0%;
     position: relative;
-    width: 100%;
+    width: 90%;
     font-size: larger;
-    margin-left: 80px;
+    margin-left: 50%;
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1140%;
 
 }
 

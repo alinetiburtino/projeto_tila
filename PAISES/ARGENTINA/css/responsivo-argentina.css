@@ -2,22 +2,23 @@
     .navigation {
         height: 10vh;
     }
+
     ul li {
         padding: 30px 5px;
     }
 }
 
-@media screen and (max-width:573px) {
-    #container{
+@media screen and (max-width: 573px) {
+    #container {
         justify-content: center;
     }
 
-    #container img {
-      width: 220px;
-      height: 200px;
+    #container .img {
+        width: 220px;
+        height: 200px;
     }
 
-    #container p{
+    #container .p {
         width: 200px;
         height: 400px;
         font-size: 15px;
@@ -25,16 +26,142 @@
 }
 
 @media screen and (max-width:570px) {
-    .clima-informação {
-        display: grid;
-        grid-template-rows: auto 1fr 1fr 1fr;
-        grid-template-columns: 1fr;
+    .informacao {
+        margin-left: 20% !important;
+        margin-right: 20% !important;
+
     }
+
     .informacao p {
-        width: 300px;
-        height: 500px;
-        font-size: 13.5px;
+        font-size: 15px;
+    }
+
+    .clima-informação {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-input-container {
+        width: 5%;
 
     }
 
+    .contato img {
+        margin-left: 270%;
+    }
+
+    .logog {
+        margin-left: 31%;
+    }
+
+    .click {
+        font-size: 19px;
+    }
+
+}
+
+@media screen and (max-width: 993px) {
+    #container {
+        justify-content: center;
+    }
+
+    #container img {
+        width: 400px;
+        height: 300px;
+    }
+
+    #container p {
+        width: 400px;
+        height: 300px;
+        font-size: 19px;
+    }
+
+    .form-input-container {
+        width: 5%;
+
+    }
+
+    .contato img {
+        margin-left: 640%;
+    }
+
+    .logog {
+        margin-left: 40%;
+    }
+
+    .click {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    #container {
+        justify-content: center;
+
+    }
+
+    #container .img {
+        width: 320px;
+        height: 250px;
+        margin-left: 20px;
+    }
+
+    #container .p {
+        width: 250px;
+        height: 300px;
+        margin-left: 15px;
+        font-size: 15.5px;
+    }
+
+    .ponto-card {
+        width: 285px;
+        height: 200%;
+        display: auto;
+        margin-top: 20px;
+    }
+
+    .ponto-card p {
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+        margin-left: 28%;
+    }
+
+    .informacao {
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+
+    }
+
+    .informacao p {
+        font-size: 15px;
+    }
+
+    .clima-informação {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .form-input-container {
+        width: 5%;
+
+    }
+
+    .contato img {
+        margin-left: 425%;
+    }
+
+    .logog {
+        margin-left: 37%;
+    }
+
+    .click {
+        font-size: 23px;
+    }
 }

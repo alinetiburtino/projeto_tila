@@ -1,19 +1,16 @@
 .clima-informação{
     display: grid;
-    grid-template-areas:
-        'descriçao';
     grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
-    margin: 30px;
-   
+    margin: 40px;
 }
 
 .informacao{
     text-align: justify;
     padding: 20px;
     margin: 20px;
-    font-size: 18px;
+    font-size: 19px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-style: dashed;
     border-color: rgb(6, 50, 5);
@@ -49,7 +46,9 @@
   border-radius: 1rem;
   align-items: center;
   justify-content: center;
-  margin: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
 }
 
 .form

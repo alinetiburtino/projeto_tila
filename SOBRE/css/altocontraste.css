@@ -110,4 +110,10 @@
 .dica:hover #hoverText {
     opacity: 1;
 }
+.cartao p{
+    color: #000000;
+}
+.cartao h2{
+    color: #000000;
+}
 

@@ -1,58 +1,132 @@
 @media screen and (max-width:783px) {
-    .bandeira-card{
-      margin-left: 3%;
+    .bandeira-card {
+        margin-left: 3%;
     }
-    .cabecario h1{
+
+    .cabecario h1 {
         margin-left: 17%;
     }
-    .contato img{
+
+    .contato img {
         margin-left: 450%;
     }
-    .logog{
+
+    .logog {
         margin-left: 37%;
     }
 }
-@media screen and (max-width:510px){
-    .navigation{
+
+@media screen and (max-width:510px) {
+    .navigation {
         height: 10vh;
     }
-    ul li{
+
+    ul li {
         padding: 30px 5px;
     }
-    .bandeira-card{
-        margin-left: 17%;
+
+    .bandeira-card {
+        margin-left: 20%;
     }
-    .contato img{
-        margin-left:200%;
+
+    .contato img {
+        margin-left: 200%;
     }
-    .logog{
+
+    .logog {
         margin-left: 25%;
     }
-    .cabecario h1{
+
+    .cabecario h1 {
         margin-left: 5%;
     }
-    .cabecario{
+
+    .cabecario {
         margin-top: 10%;
     }
 
 }
 
 @media screen and (max-width:615px) {
-    .navigation{
+    .navigation {
         height: 10vh;
     }
-    ul li{
+
+    ul li {
         padding: 30px 5px;
     }
-    
-    .bandeira-card{
-        margin-left: 20%;
+
+    .bandeira-card {
+        margin-left: 40%;
     }
-    .contato img{
+
+    .contato img {
         margin-left: 250%;
     }
-    
-    .logog{
+
+    .logog {
         margin-left: 30%;
     }
 }
+
+@media screen and (max-width:880px) {
+
+    .bandeira-card {
+        margin-left: 8%;
+    }
+
+    .cabecario h1 {
+        margin-left: 20%;
+    }
+
+    .contato img {
+        margin-left: 550%;
+    }
+
+    .logog {
+        margin-left: 40%;
+    }
+
+    
+}
+
+@media screen and (max-width:500px) {
+    .bandeira-card {
+        margin-left: 15%;
+    }
+
+    .contato img {
+        margin-left: 200%;
+    }
+
+    .logog {
+        margin-left: 27%;
+    }
+}
+
+@media screen and (max-width:1020px){
+
+    .logog {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        margin-left: 572px;
+      }
+
+      .latila {
+        align-items: center;
+        text-align: center;
+        background-color: #125a44;
+        height: 50px;
+      }
+      
+
+      footer {
+        background-color: #220315;
+        height: 100%;
+        padding: 50px;
+        color: #ffffff;
+      
+      }
+}
+
